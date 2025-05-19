@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Política de Privacidade do App LinkedIn Sandbox</title>
+</head>
+<body>
+  <h1>Política de Privacidade</h1>
+  <p>Este aplicativo funciona exclusivamente para <strong>automação de postagens</strong> no LinkedIn e não coleta, armazena ou compartilha dados pessoais de usuários além do token de autenticação OAuth.</p>
+  <h2>Dados Coletados</h2>
+  <ul>
+    <li>Token de acesso OAuth do LinkedIn (armazenado de forma segura no Make.com).</li>
+  </ul>
+  <h2>Uso dos Dados</h2>
+  <p>O token é utilizado apenas para publicar no perfil vinculado. Não há análise, venda ou compartilhamento de dados.</p>
+  <h2>Contato</h2>
+  <p>Em caso de dúvidas ou solicitações, envie e-mail para <a href="mailto:seu.email@empresa.com">seu.email@empresa.com</a>.</p>
+</body>
+</html>
