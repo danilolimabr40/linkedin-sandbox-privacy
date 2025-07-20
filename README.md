@@ -1,8 +1,28 @@
 # Monday Meetings Checker
 
-Este projeto usa a integração MCP Zapier para verificar suas reuniões de segunda-feira.
+Este projeto usa a integração MCP Zapier e Google Calendar para verificar suas reuniões de segunda-feira.
 
 ## Configuração
+
+### Opção 1: Google Calendar (Recomendado)
+
+1. **Configure o Google Calendar:**
+   ```bash
+   node setup_google_auth.js
+   ```
+   
+   Siga as instruções para:
+   - Criar um projeto no Google Cloud Console
+   - Ativar a Google Calendar API
+   - Baixar as credenciais OAuth2
+   - Autorizar o aplicativo
+
+2. **Ou use uma API key simples:**
+   ```bash
+   export GOOGLE_CALENDAR_API_KEY="sua_api_key"
+   ```
+
+### Opção 2: Zapier
 
 1. **Obtenha sua API Key do Zapier:**
    - Acesse: https://zapier.com/app/settings/api
@@ -13,15 +33,22 @@ Este projeto usa a integração MCP Zapier para verificar suas reuniões de segu
    export ZAPIER_API_KEY="sua_api_key_aqui"
    ```
 
-3. **Instale as dependências:**
-   ```bash
-   npm install
-   ```
+### Instalação
+
+```bash
+npm install
+```
 
 ## Uso
 
 Para verificar suas reuniões de segunda-feira:
 
+### Google Calendar:
+```bash
+node check_google_calendar.js
+```
+
+### Zapier:
 ```bash
 npm run check-meetings
 ```
