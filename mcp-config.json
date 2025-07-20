@@ -1,11 +1,7 @@
 {
   "mcpServers": {
-    "zapier": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-zapier"],
-      "env": {
-        "ZAPIER_API_KEY": "YOUR_ZAPIER_API_KEY_HERE"
-      }
+    "Zapier": {
+      "url": "https://mcp.zapier.com/api/mcp/s/OWZhMDJkZDgtNGRjYS00YmMzLWFjZDctMDNkZTY5Y2MwZDc5OmFkYzk4MDhiLTZmNDgtNGZmNS1hMWUyLTBiYjBiYzY5ZmVjNw==/mcp"
     }
   }
 }
